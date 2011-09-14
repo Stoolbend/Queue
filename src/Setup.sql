@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `queue` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `player` varchar(255) NOT NULL DEFAULT 'Herobrine',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

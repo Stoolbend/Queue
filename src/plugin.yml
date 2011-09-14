@@ -1,0 +1,20 @@
+name: Queue
+main: me.Stoolbend.Queue.Queue
+version: 1.0
+commands:
+   queue:
+      description: Add yourself into the Queue / Check your place in the queue
+   next:
+      description: See who is next in line & choose to help / ignore them
+permissions:
+    queue.*:
+        description: Gives access to all queue commands
+        children:
+            queue.add: true
+            queue.see: true
+    queue.add:
+        description: Allows the user to be added to the queue
+        default: true
+    queue.see:
+        description: Allows the user use of /next command to deal with the queue
+        default: op
