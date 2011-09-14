@@ -1,0 +1,5 @@
+1.0
+---------
+Features:
+o /queue - Allows players to add themselves to the queue and check their position
+o /next - Allows staff to manage the Queue system.

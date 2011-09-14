@@ -1,0 +1,17 @@
+Queue v1.0
+----------
+Created by Stoolbend
+(http://www.github.com/Stoolbend/)
+
+How to install
+--------------
+Firstly, make a MySQL Database on either your server, or another server that the minecraft server can connect to
+Then, run the SQL Query inside Setup.sql on your new database to create the table structure.
+Finally, Throw the Queue.jar file into your server's /plugins/ directory, and a config file will be made in /plugins/Queue/.
+Edit the config.yml file so it all matches up with the MySQL details taking note not to break the fragile YAML file (No tabs people!)
+
+Have a problem?
+---------------
+Well, if this is a fork of the original Queue project, then file a bugreport with the fork's developer.
+If you are using my version (its the best ;), then goto https://github.com/Stoolbend/Queue/issues and leave a note there.
+Its all taken seriously, and I will respond (providing i'm not dead in a ditch somewhere).
